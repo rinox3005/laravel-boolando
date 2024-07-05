@@ -15,3 +15,31 @@ body {
 a {
     text-decoration: none;
 }
+
+header {
+    position: sticky;
+    background-color: $bg-header;
+    box-shadow: 0 2px rgba(158, 157, 157, 0.63);
+    width: 100%;
+    z-index: 1;
+    li {
+        display: inline-block;
+        font-weight: bold;
+        a {
+            color: white;
+            text-decoration: none;
+            padding-right: 10px;
+            display: inline-block;
+        }
+        img {
+            @extend %white-icons;
+            height: 18px;
+            padding-left: 8px;
+        }
+    }
+}
+
+.logo {
+    display: inline-block;
+    height: 25px;
+}

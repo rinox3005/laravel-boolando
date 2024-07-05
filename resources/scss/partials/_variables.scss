@@ -3,3 +3,14 @@ VARIABLES
 ******/
 
 $body-bg-color: #fff;
+$bg-header: #ff6900;
+$bg-footer: #1a1a1a;
+$bg-discount-color: red;
+$price-color: red;
+$heart-color: red;
+$bg-eco-color: green;
+
+%white-icons {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%)
+        hue-rotate(275deg) brightness(105%) contrast(106%);
+}
