@@ -1,30 +1,10 @@
-{{--
-    <header>
-    <div
-    class="d-flex justify-content-between align-items-center container py-3"
-    >
-    <ul class="d-flex mb-0">
-    <li>Home</li>
-    <li>Products</li>
-    <li>About Us</li>
-    </ul>
-    <h2 class="mb-0">Logo</h2>
-    <ul class="d-flex mb-0">
-    <li>icona1</li>
-    <li>icona2</li>
-    <li>icona3</li>
-    </ul>
-    </div>
-    </header>
---}}
-
 <header>
-    <div class="row container m-auto py-3">
+    <div class="d-flex container m-auto py-3">
         <nav class="col-4">
             <ul class="d-flex mb-0">
-                <li><a href="">Home</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">About Us</a></li>
+                <li><a href="{{ route("home") }}">Home</a></li>
+                <li><a href="{{ route("products") }}">Products</a></li>
+                <li><a href="{{ route("about") }}">About Us</a></li>
             </ul>
         </nav>
 
