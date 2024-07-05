@@ -17,7 +17,7 @@ a {
 }
 
 header {
-    position: sticky;
+    position: fixed;
     background-color: $bg-header;
     box-shadow: 0 2px rgba(158, 157, 157, 0.63);
     width: 100%;
@@ -45,6 +45,94 @@ header {
 .logo {
     display: inline-block;
     height: 25px;
+}
+main {
+    padding-top: 60px;
+    .hover-img {
+        display: none;
+    }
+
+    .content:hover .hover-img {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .content:hover .main-img {
+        display: none;
+        cursor: pointer;
+    }
+
+    .brand {
+        font-size: 15px;
+    }
+
+    .price {
+        font-size: 14px;
+    }
+
+    .red-text {
+        color: $price-color;
+        margin-right: 4px;
+    }
+
+    .discount {
+        background-color: $bg-discount-color;
+        padding: 5px 8px;
+        color: white;
+        font-size: 11px;
+        margin-right: 5px;
+    }
+
+    .sustainability {
+        background-color: $bg-eco-color;
+        padding: 5px 8px;
+        color: white;
+        font-size: 11px;
+    }
+
+    .product {
+        font-size: 13px;
+    }
+
+    .content {
+        position: relative;
+    }
+
+    .content img {
+        width: 100%;
+    }
+
+    .label {
+        position: absolute;
+        bottom: 40px;
+        left: 0px;
+    }
+
+    .heart {
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        text-align: center;
+        padding: 1px 11px;
+        background-color: white;
+        font-size: 30px;
+    }
+
+    .fav {
+        color: red;
+        cursor: pointer;
+        &:hover {
+            color: black;
+        }
+    }
+
+    .notFav {
+        color: black;
+        cursor: pointer;
+        &:hover {
+            color: red;
+        }
+    }
 }
 
 footer {

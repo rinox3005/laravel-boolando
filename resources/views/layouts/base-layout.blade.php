@@ -12,6 +12,7 @@
         @include("shared.header")
         <main>
             @yield("main")
+            @yield("scripts")
         </main>
         @include("shared.footer")
     </body>
