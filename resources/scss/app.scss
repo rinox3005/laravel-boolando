@@ -16,6 +16,8 @@ a {
     text-decoration: none;
 }
 
+// HEADER CSS
+
 header {
     position: fixed;
     background-color: $bg-header;
@@ -46,6 +48,9 @@ header {
     display: inline-block;
     height: 25px;
 }
+
+// PRODUCTS CSS
+
 main {
     padding-top: 60px;
     .hover-img {
@@ -133,7 +138,15 @@ main {
             color: red;
         }
     }
+
+    // HOME PAGE CSS
+
+    .home-img {
+        height: 500px;
+    }
 }
+
+// FOOTER CSS
 
 footer {
     width: 100%;

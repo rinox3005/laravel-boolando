@@ -22,19 +22,19 @@
                 <li>
                     <img
                         src="{{ Vite::asset("resources/img/user.webp") }}"
-                        alt="logo"
+                        alt="user-icon"
                     />
                 </li>
                 <li>
                     <img
                         src="{{ Vite::asset("resources/img/heart.webp") }}"
-                        alt="logo"
+                        alt="favourites-icon"
                     />
                 </li>
                 <li>
                     <img
                         src="{{ Vite::asset("resources/img/shopping-bag.webp") }}"
-                        alt="logo"
+                        alt="cart-icon"
                     />
                 </li>
             </ul>
